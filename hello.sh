@@ -1,7 +1,8 @@
+OUTPUT=$( echo "Hello Github!")
+
 if ${OUTPUT} == "Hello Github!"
   then OUTCOME="SUCCESS"
 else OUTCOME="FAIL"
 
-OUTPUT=$( echo "Hello Github!")
-
+# Code below must pass test above...
 echo "Hello Github!"
